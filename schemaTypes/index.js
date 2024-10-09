@@ -1,6 +1,6 @@
 import { Endereco } from "./Endereco"
 
-import { CadastroPessoa } from "./CadastroPessoa"
+import { CadastroPessoa } from "./Pessoa"
 
-export const schemaTypes = [Endereco, CadastroPessoa]
+export const schemaTypes = [Endereco, Pessoa]
 

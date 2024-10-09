@@ -1,9 +1,9 @@
 import {defineField, defineType} from 'sanity'
 
-export const Endereco = defineType({
-  name: 'event',
-  title: 'Event',
-  type: 'document',
+export const EnderecoType = defineType({
+  name: 'endereco',
+  title: 'Endereco',
+  type: 'object',
   fields: [
     defineField({
       name: 'Rua',
