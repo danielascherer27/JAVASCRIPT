@@ -1,6 +1,6 @@
-import { Endereco } from "./Endereco"
+import { EnderecoType } from "./Endereco"
 
-import { Pessoa } from "./Pessoa"
+import { PessoaType } from "./Pessoa"
 
-export const schemaTypes = [Endereco, Pessoa]
+export const schemaTypes = [EnderecoType, PessoaType]
 
