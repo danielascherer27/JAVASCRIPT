@@ -3,49 +3,39 @@ import {defineField, defineType} from 'sanity'
 export const PessoaType = defineType({
   name: 'pessoa',
   title: 'Pessoa',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
-      name: 'Id:',
-      type: 'int',
-      title: 'Id',
-
+      name: 'Id',
+      type: 'number',
     }),
     defineField({
-      name: 'Nome:',
+      name: 'Nome',
       type: 'string',
-      title: 'Nome',
     }),
     defineField({
-      name: 'Data Nascimento:',
+      name: 'DataNascimento',
       type: 'date',
-      title: 'Data de Nascimento',
     }),
     defineField({
-      name: 'Email:',
+      name: 'Email',
       type: 'string',
-      title: 'Email',
-
     }),
     defineField({
-      name: 'Telefone:',
+      name: 'Telefone',
       type: 'string',
-      title: 'Telefone',
     }),
     defineField({
-      name: 'Imagem Perfil:',
+      name: 'ImagemPerfil',
       type: 'image',
-      title: 'Imagem',
     }),
     defineField({
-      name: 'Ativo:',
-      type: 'booblean',
-      title: 'Ativo',
+      name: 'Ativo',
+      type: 'boolean',
     }),
     defineField({
-      name: 'endereco:',
-      type: 'Endereco',
-      title: 'Endereco',
+      name: 'endereco',
+      type: 'endereco',
     }),
   ],
 })

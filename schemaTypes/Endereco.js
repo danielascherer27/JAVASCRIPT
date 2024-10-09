@@ -3,30 +3,30 @@ import {defineField, defineType} from 'sanity'
 export const EnderecoType = defineType({
   name: 'endereco',
   title: 'Endereco',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
       name: 'Rua',
       type: 'string',
     }),
     defineField({
-      name: 'Numero:',
+      name: 'Numero',
       type: 'string',
     }),
     defineField({
-      name: 'Cidade:',
+      name: 'Cidade',
       type: 'string',
     }),
     defineField({
-      name: 'Estado:',
+      name: 'Estado',
       type: 'string',
     }),
     defineField({
-      name: 'Pais:',
+      name: 'Pais',
       type: 'string',
     }),
     defineField({
-      name: 'CEP:',
+      name: 'CEP',
       type: 'string',
     }),
   ],
