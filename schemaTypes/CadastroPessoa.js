@@ -6,40 +6,46 @@ export const CadastroPessoa = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'id',
-      type: 'int',
-    }),
-    defineField({
       name: 'Id:',
       type: 'int',
+      title: 'Id',
+
     }),
     defineField({
       name: 'Nome:',
       type: 'string',
+      title: 'Nome',
     }),
     defineField({
       name: 'Data Nascimento:',
       type: 'date',
+      title: 'Data de Nascimento',
     }),
     defineField({
       name: 'Email:',
       type: 'string',
+      title: 'Email',
+
     }),
     defineField({
       name: 'Telefone:',
       type: 'string',
+      title: 'Telefone',
     }),
     defineField({
       name: 'Imagem Perfil:',
       type: 'image',
+      title: 'Imagem',
     }),
     defineField({
       name: 'Ativo:',
       type: 'booblean',
+      title: 'Ativo',
     }),
     defineField({
       name: 'endereco:',
       type: 'Endereco',
+      title: 'Endereco',
     }),
   ],
 })
